@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
-printf("hello world!");
+char nume[30];
+scanf("%s",nume);
+printf("Hello,%s!",nume);
 return 0;
 }
